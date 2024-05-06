@@ -1,0 +1,60 @@
+.container {
+    background-color: rgb(238, 238, 238);
+    width: 600px;
+    height: 350px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.container div {
+    width: 20%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    flex: 0 1 15%;
+    transition: .6s ease-in-out;
+}
+
+.one {
+    background-color: orange;
+}
+
+.one:hover {
+    transform: translateX(-142px);
+}
+
+
+.two {
+    align-self: flex-end;
+    background-color: rgb(79, 194, 79);
+}
+
+.two:hover {
+    transform: translateX(142px);
+}
+
+
+.three {
+    background-color: rgb(100, 65, 65);
+}
+
+.three:hover {
+    transform: translateX(-142px);
+}
+
+
+.four {
+    align-self: flex-end;
+    order: -1;
+    background-color: slateblue;
+}
+
+.four:hover {
+    transform: translateX(142px);
+}
